@@ -40,3 +40,15 @@ ul {
 .gallery-item:hover {
   transform: scale(1.05);
 }
+
+.sl-overlay {
+  background-color: rgba(46, 47, 66, 0.8);
+}
+
+.sl-wrapper .sl-close {
+  color: #fff;
+}
+
+.sl-wrapper .sl-navigation button {
+  color: #fff;
+}

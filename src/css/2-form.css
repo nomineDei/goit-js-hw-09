@@ -24,6 +24,7 @@
   border: 1px solid #ccc;
   border-radius: 4px;
   width: 360px;
+  outline: none;
 }
 
 .form-textarea {
@@ -34,6 +35,8 @@
   border-radius: 4px;
   width: 360px;
   max-height: 80px;
+  resize: none;
+  outline: none;
 }
 
 .form-btn {
@@ -51,4 +54,19 @@
   color: #fff;
   align-self: flex-start;
   border: none;
+}
+
+.form-input:hover,
+.form-textarea:hover {
+  border: 1px solid #000;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  border: 1px solid #ccc;
+}
+
+.form-btn:hover,
+.form-btn:focus {
+  background: #6c8cff;
 }
