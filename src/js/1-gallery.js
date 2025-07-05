@@ -89,16 +89,9 @@ function createGallery(arr) {
 
 gallery.insertAdjacentHTML("beforeend", createGallery(images));
 
-const galleryLinks = document.querySelectorAll('.gallery a');
-
-galleryLinks.forEach(link => {
-  const img = link.querySelector('img');
-  link.href = img.dataset.source;
-});
-
 const lightbox = new SimpleLightbox('.gallery a', {
   
   captions: true,
   captionsData: 'alt',
-  captionsDelay: 250,
+  captionDelay: 250,
 })
